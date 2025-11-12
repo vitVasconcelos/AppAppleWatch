@@ -17,7 +17,7 @@ function atualizarImagemSelecionada(){
 
     numImagemSelecionada = opcaoImagemSelecionada;
 
-    imagemVisualizacao.src = "/src/imagens/imagens-" + opcoesCores[numCorSelecionada] +"/imagem-" +numImagemSelecionada + ".jpeg";
+    imagemVisualizacao.src = "./src/imagens/imagens-" + opcoesCores[numCorSelecionada] +"/imagem-" +numImagemSelecionada + ".jpeg";
 }
 function atualizarTamanho(){
     const opcaoTamanhoSelecionado = document.querySelector('[name="opcao-tamanho"]:checked').id.charAt(0);
@@ -43,8 +43,8 @@ function atualizarCorSeleciona(){
 
     nomeCorSelecionada.textContent = "Cor - " + nomeCor;
 
-    imagemVisualizacao.src = "/src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-" +numImagemSelecionada + ".jpeg";
-    imagemMiniatura0.src = "/src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-0" + ".jpeg";
-    imagemMiniatura1.src = "/src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-1" + ".jpeg";
-    imagemMiniatura2.src = "/src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-2" + ".jpeg";
+    imagemVisualizacao.src = "./src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-" +numImagemSelecionada + ".jpeg";
+    imagemMiniatura0.src = "./src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-0" + ".jpeg";
+    imagemMiniatura1.src = "./src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-1" + ".jpeg";
+    imagemMiniatura2.src = "./src/imagens/imagens-" + nomeCor.toLowerCase() + "/imagem-2" + ".jpeg";
 }
