@@ -17,7 +17,7 @@ function atualizarImagemSelecionada(){
 
     numImagemSelecionada = opcaoImagemSelecionada;
 
-    imagemVisualizacao.src = ".//src//imagens//imagens-" + opcoesCores[numCorSelecionada] +"//imagem-" +numImagemSelecionada + ".jpeg";
+    imagemVisualizacao.src = "./src/imagens/imagens-" + opcoesCores[numCorSelecionada] +"/imagem-" +numImagemSelecionada + ".jpeg";
 }
 function atualizarTamanho(){
     const opcaoTamanhoSelecionado = document.querySelector('[name="opcao-tamanho"]:checked').id.charAt(0);
